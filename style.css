@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+:root {
+    --primary-color:#F87171;
+}
+hr{
+    margin:2rem 0rem;
+}
 body{
     font-family: 'Texturina', serif; 
 }
@@ -9,4 +15,19 @@ body{
 .center-container{
     max-width:500px;
     margin:auto;
+}
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+}
+.link-secondry{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+
 }
