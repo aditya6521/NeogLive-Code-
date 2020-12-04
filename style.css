@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
 :root {
     --primary-color:#F87171;
+    --off-white:#9CA3AF;
+
 }
 hr{
     margin:2rem 0rem;
@@ -70,4 +72,23 @@ body{
 }
 .hero .hero-heading{
     text-align: center;
+}
+.section{
+    padding:0.5rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
+    padding-bottom:0.5rem;
+
+}
+footer{
+   background-color: var(--primary-color);
+   padding:2rem;
+   text-align: center;
+}
+.flink{
+    color: white;
 }
