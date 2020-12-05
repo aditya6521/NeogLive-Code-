@@ -9,6 +9,7 @@ hr{
 }
 body{
     font-family: 'Texturina', serif; 
+    margin: 0px;
 }
 .containers{
     padding-left:2rem;
@@ -27,6 +28,7 @@ body{
     background-color:var(--primary-color);
     border-radius:0.5rem;
     color:white;
+    margin: 1rem;
     
 }
 .link-secondry{
@@ -88,6 +90,8 @@ footer{
    background-color: var(--primary-color);
    padding:2rem;
    text-align: center;
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 2rem;
 }
 .flink{
     color: white;
